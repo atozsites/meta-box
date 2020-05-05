@@ -1,0 +1,18 @@
+.Atozsites-taxonomy-add,
+.Atozsites-taxonomy-add-form {
+	margin-top: 6px;
+}
+.Atozsites-taxonomy-add-button {
+	padding: 0;
+	border: 0;
+	background: none;
+	color: #0073aa;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.Atozsites-taxonomy-add-button:hover {
+	color: #00a0d2;
+}
+.Atozsites-taxonomy-add-form.Atozsites-hidden {
+	display: none;
+}

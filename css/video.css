@@ -1,0 +1,24 @@
+.Atozsites-video-item {
+	position: relative;
+	float: left;
+	padding: 8px;
+	margin: 0;
+	box-sizing: border-box;
+	width: 300px;
+}
+
+.Atozsites-video-item .Atozsites-media-preview {
+	width: 100%;
+	float: none;
+	background: #eee;
+}
+
+.Atozsites-video-item video {
+	width: auto;
+	height: 100%;
+}
+
+.Atozsites-video-item .Atozsites-media-info {
+	margin-left: 0;
+	padding: 10px 0;
+}

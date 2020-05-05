@@ -1,0 +1,71 @@
+.Atozsites-button-input-list {
+	margin: 0;
+}
+.Atozsites-button-input-list li {
+	margin-bottom: 0;
+	list-style: none;
+}
+.Atozsites-button-input-list .Atozsites-button_group {
+	display: none;
+}
+.Atozsites-button-input-list li label {
+	display: inline-block;
+	border: #ccc solid 1px;
+	position: relative;
+	z-index: 1;
+	padding: 5px 10px;
+	background: #fff;
+}
+.Atozsites-button-input-list li label.selected {
+	border-color: #0073aa;
+	background: #0073aa;
+	color: #fff;
+	z-index: 2;
+}
+/* Layout not inline
+-------------------------------------------------*/
+.Atozsites-button-input-list:not(.Atozsites-inline) li label {
+	 border-top-width: 0;
+}
+.Atozsites-button-input-list:not(.Atozsites-inline) li:first-child label {
+	border-top-width: 1px;
+}
+.Atozsites-button-input-list:not(.Atozsites-inline) li label.selected {
+	border-bottom: 1px solid #fff;
+}
+.Atozsites-button-input-list:not(.Atozsites-inline) li:last-child label.selected {
+	border-bottom-color: #0073aa;
+}
+.Atozsites-button-input-list:not(.Atozsites-inline) > li:first-child:not(:last-child) label {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.Atozsites-button-input-list:not(.Atozsites-inline)  > li:last-child:not(:first-child) label {
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+/*  Layout inline
+---------------------------------------------*/
+.Atozsites-button-input-list.Atozsites-inline li {
+	display: inline-block;
+}
+.Atozsites-button-input-list.Atozsites-inline li label {
+	border-left-width: 0;
+}
+.Atozsites-button-input-list.Atozsites-inline li:first-child label {
+	border-left-width: 1px;
+}
+.Atozsites-button-input-list.Atozsites-inline li label.selected {
+	border-right-color: rgb(255, 255, 255);
+}
+.Atozsites-button-input-list.Atozsites-inline li:last-child label.selected {
+	border-right-color: #0073aa;
+}
+.Atozsites-button-input-list.Atozsites-inline > li:first-child:not(:last-child) label {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.Atozsites-button-input-list.Atozsites-inline > li:last-child:not(:first-child) label {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}

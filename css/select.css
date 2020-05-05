@@ -1,0 +1,13 @@
+.Atozsites-select {
+	min-width: 160px;
+}
+.Atozsites-select.Atozsites-select[multiple] {
+	padding: 0;
+}
+.Atozsites-select option {
+	padding: 4px 8px;
+}
+.Atozsites-select-all-none {
+	display: block;
+	margin-top: 5px;
+}

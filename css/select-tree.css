@@ -1,0 +1,7 @@
+.Atozsites-select-tree {
+	display: inline-block;
+}
+
+.Atozsites-select-tree.hidden {
+	display: none;
+}

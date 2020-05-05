@@ -1,0 +1,94 @@
+/* style switch
+-----------------------------*/
+.Atozsites-switch-label {
+	position: relative;
+	display: inline-block;
+	background-color: #ccc;
+	padding: 2px;
+	border-radius: 3px;
+	min-width: 40px;
+	height: 22px;
+	box-sizing: border-box;
+}
+
+.Atozsites-switch.Atozsites-switch {
+	display: none;
+}
+
+.Atozsites-switch:checked + .Atozsites-switch-status .Atozsites-switch-slider {
+	background-color: #0073aa;
+	box-shadow: 0 0 1px #0073aa;
+}
+
+.Atozsites-switch:checked + .Atozsites-switch-status .Atozsites-switch-slider:before {
+	left: calc(100% - 20px);
+}
+
+.Atozsites-switch:checked + .Atozsites-switch-status .Atozsites-switch-off {
+	visibility: hidden;
+	display: none;
+}
+
+.Atozsites-switch:not(:checked) + .Atozsites-switch-status .Atozsites-switch-on {
+	visibility: hidden;
+	display: none;
+}
+
+.Atozsites-switch-slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 15;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.Atozsites-switch-slider:before {
+	position: absolute;
+	content: attr(title-before) "";
+	height: 18px;
+	width: 18px;
+	left: 2px;
+	bottom: 2px;
+	z-index: 99;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+	border-radius: 2px;
+}
+
+.Atozsites-switch-label--square .Atozsites-switch-slider {
+	border-radius: 3px;
+}
+
+.Atozsites-switch-label--rounded,
+.Atozsites-switch-label--rounded .Atozsites-switch-slider {
+	border-radius: 34px;
+}
+
+.Atozsites-switch-label--rounded .Atozsites-switch-slider:before {
+	border-radius: 50%;
+}
+
+.Atozsites-switch-on,
+.Atozsites-switch-off {
+	display: inline-block;
+	float: left;
+	margin: 0 4px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 11px;
+	position: relative;
+	z-index: 20;
+}
+
+.Atozsites-switch-on {
+	padding-right: 20px;
+}
+
+.Atozsites-switch-off {
+	padding-left: 20px;
+}

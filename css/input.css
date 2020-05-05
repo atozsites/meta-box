@@ -1,0 +1,35 @@
+.Atozsites-input-group {
+	display: flex;
+	align-items: stretch;
+}
+.Atozsites-input-group-append,
+.Atozsites-input-group-prepend {
+	display: flex;
+	align-items: center;
+	padding: 0 8px;
+	background: #ddd;
+}
+.Atozsites-input-group input {
+	margin: 0;
+}
+
+/* Dark version for WordPress >= 5.3 */
+.Atozsites-input-dark .Atozsites-input-group-append,
+.Atozsites-input-dark .Atozsites-input-group-prepend {
+	border: 1px solid #7e8993;
+}
+.Atozsites-input-dark .Atozsites-input-group-append {
+	border-radius: 0 4px 4px 0;
+}
+.Atozsites-input-dark .Atozsites-input-group-prepend {
+	border-radius: 4px 0 0 4px;
+}
+.Atozsites-input-dark input {
+	border-right-width: 0;
+	border-radius: 4px 0 0 4px;
+}
+.Atozsites-input-dark .Atozsites-input-group-prepend + input {
+	border-left: none;
+	border-right-width: 1px;
+	border-radius: 0 4px 4px 0;
+}

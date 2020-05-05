@@ -1,0 +1,21 @@
+.Atozsites-image-select {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin: 0 10px 10px 0;
+	border: 3px solid #d8d8d8;
+	border-radius: 3px;
+	padding: 1px;
+}
+.Atozsites-image-select img {
+	width: 100%;
+	height: 100%;
+}
+.Atozsites-image-select:hover,
+.Atozsites-image-select.Atozsites-active {
+	border-color: #0074a2;
+}
+.Atozsites-image_select.Atozsites-image_select {
+	display: none;
+}

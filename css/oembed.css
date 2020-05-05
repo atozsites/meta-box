@@ -1,0 +1,11 @@
+.Atozsites-oembed-wrapper .spinner {
+	float: none;
+	vertical-align: top;
+	display: inline-block;
+}
+.Atozsites-embed-media {
+	margin-top: 1em;
+}
+.Atozsites-embed-media iframe {
+	max-width: 100%;
+}

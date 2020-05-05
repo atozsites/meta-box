@@ -1,0 +1,19 @@
+.Atozsites-text_list-non-cloneable > .Atozsites-input,
+.Atozsites-text_list-clone {
+	display: flex;
+	flex-wrap: wrap;
+}
+.Atozsites-text_list-non-cloneable > .Atozsites-input > label,
+.Atozsites-text_list-clone > label {
+	margin: 0 10px 10px 0;
+}
+.Atozsites-text_list-non-cloneable > .Atozsites-input > label:last-child,
+.Atozsites-text_list-clone > label:last-child {
+	margin-right: 0;
+}
+
+.Atozsites-text-list-label {
+	font-weight: 600;
+	display: block;
+	margin-bottom: 5px;
+}

@@ -1,0 +1,11 @@
+.Atozsites-label, .Atozsites-input{
+	float: right;
+}
+label.error{
+	padding-left: auto;
+	padding-right: 3px;
+}
+.Atozsites-button.remove-clone {
+	right: auto;
+	left: 0;
+}

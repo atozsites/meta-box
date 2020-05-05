@@ -1,0 +1,23 @@
+.Atozsites-toggle-all-wrapper {
+	margin-top: 0;
+}
+.Atozsites-input-list {
+	margin: 0;
+	line-height: 1.8;
+}
+.Atozsites-input-list .Atozsites-input-list {
+	margin-left: 20px;
+}
+.Atozsites-input-list li {
+	list-style: none;
+	margin-bottom: 0;
+}
+.Atozsites-input-list.Atozsites-inline {
+	line-height: inherit;
+}
+.Atozsites-input-list.Atozsites-inline li {
+	display: inline-block;
+}
+.Atozsites-input-list.Atozsites-inline li:not(:last-child) {
+	margin-right: 20px;
+}
